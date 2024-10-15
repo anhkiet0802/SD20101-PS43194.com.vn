@@ -1,0 +1,271 @@
+
+
+nav {
+    border: 1px solid rgb(206, 107, 107);
+}
+
+#head {
+    width: 100%;
+    height: 400px;
+    background-image: url(/Asignment_Web_ps43194/image/AnhTruong.jpg);
+    background-size: 100% 100%;
+}
+
+.menu {
+    background-image: url(/Asignment_Web_ps43194/image/logoTruongntt\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position-y: center;
+    background-position-x: 100px;
+    width: 100%;
+    height: 100px;
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.menu>ul>li {
+    display: inline-block;
+    position: relative;
+}
+
+.menu>ul>li>a {
+    color: whitesmoke;
+    text-decoration: none;
+    margin: 20px;
+    font-size: 24px;
+
+}
+
+.menu>ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.menu>ul>li>a:hover {
+    color: yellow;
+    text-decoration: none;
+}
+
+#main {
+    width: 100%;
+    height: 769px;
+}
+
+#footer {
+    width: 100%;
+    height: 80px;
+    clear: both;
+    color: white;
+    text-align: center;
+    line-height: 90px;
+    background-color: brown;
+}
+
+.main-leftside {
+    padding: 0px;
+    width: 30%;
+    height: 100%;
+    border-top: none;
+    float: left;
+}
+.main-rightside{
+    width: 30%;
+    height: 769px;
+    padding: 0px;
+    margin: 0px;
+    float: left;
+}
+
+.main-center {
+    width: 39.5%;
+    height: 769px;
+    border-top: none;
+    float: left;
+
+}
+.map{
+    width: 100%;
+    height: 300px;
+    float: left;
+}
+.main-rightside-bottom{
+    width: 100%;
+    height: 470px;
+    float: left;
+    background-color: rgb(212, 121, 121);
+    
+}
+.main-rightside-bottom>h2{
+    color: white;
+    border: 1px solid red;
+    height: 50px;
+    border-left: none;
+    border-right: none;
+    text-align: center;
+    line-height: 50px;
+    background-color: brown;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.main-rightside-bottom>ul{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+}
+.main-rightside-bottom>ul>li{
+    display: inline-block;
+    text-decoration: none;
+    inline-size: none;
+    margin-right: 15px;
+    margin: 12.2px;
+    border-bottom: 2px dashed red;
+    font-size: 30px;
+}
+.main-rightside-bottom>ul>li>a{
+    padding: 0 10px;
+}
+.main-rightside-bottom>ul>li>a:hover{
+    color: yellow;
+}
+
+.main-rightside-bottom>ul>li>a{
+    display: block;
+    line-height: 50px;
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    white-space: nowrap; /* Ngăn chặn xuống dòng */
+    
+}
+.map>iframe{
+    width: 100%;
+    height: 300px;
+}
+.MucTim {
+    width: 200px; /* Chiều rộng ô nhập */
+    height: 30px; /* Chiều cao ô nhập */
+    padding: 5px; /* Khoảng cách bên trong */
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.NutTim {
+    height: 30px; /* Chiều cao nút */
+    margin-left: 5px; /* Khoảng cách giữa ô nhập và nút */
+    cursor: pointer; /* Con trỏ chuột sẽ thay đổi khi hover */
+}
+
+
+.menu ul ul {
+    margin: 0px;
+    padding: 0px;
+    width: 150px;
+    position: absolute;
+    list-style: none;
+    border: 1px solid brown;
+    background-color: brown;
+    display: none;
+    text-align: left;
+    z-index: 100;
+}
+
+.menu ul ul a {
+    display: block;
+    line-height: 30px;
+    color: white;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: large;
+    padding: 0 10px;
+    border-bottom: 1px dotted white;
+}
+
+.menu ul ul a:hover {
+    color: yellow;
+    background-color: brown;
+}
+
+.menu>ul>li:hover>ul {
+    display: block;
+}
+
+.main-leftside>h2 {
+    color: white;
+    border: 1px solid red;
+    height: 50px;
+    border-left: none;
+    border-right: none;
+    text-align: center;
+    line-height: 50px;
+    background-color: brown;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.main-leftside>ul {
+    height: 203px;
+    border: 1px solid rgb(241, 195, 195);
+    border-left: none;
+    border-right: none;
+    background-color: rgb(204, 122, 122);
+    padding: 0px;
+    margin: 0px;
+}
+
+.main-leftside>ul>li>a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    font-size: 21px;
+}
+
+.main-leftside>ul>li:hover>a{
+    color: yellow;
+
+
+}
+.main-leftside ul li {
+    list-style: none;
+    margin: 20px;
+    border-bottom: 2px dashed red;
+}
+marquee {
+    font-size: 20px;
+   z-index: 1;
+   border: 1px solid red;
+}
+
+@keyframes marquee {
+    from {
+        transform: translateX(100%); /* Bắt đầu từ ngoài màn hình */
+    }
+    to {
+        transform: translateX(-100%); /* Kết thúc ngoài màn hình bên trái */
+    }
+}
+.chatbox{
+    border: none;
+    outline: none;
+}
+.iframe{
+    width: 100%;
+    height: 50%;
+}
+.iframe>iframe{
+    width: 100%;
+    height: 100%;
+}
+.MoTa{
+    width: 100%;
+    height: 50%;
+    float: left;
+}

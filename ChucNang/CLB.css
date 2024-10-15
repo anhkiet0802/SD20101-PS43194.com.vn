@@ -1,0 +1,14 @@
+img{
+
+}
+nav{
+    border: 1px solid red;
+    width: 100%;
+}
+nav>li{
+    list-style: none;
+    text-align: center;
+}
+nav>li>a{
+    text-decoration: none;
+}
